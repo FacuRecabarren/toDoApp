@@ -54,7 +54,7 @@ export const Home = () => {
   };
   return (
     <div className='h-screen flex flex-col items-center pt-10'>
-        {todos.length < 4 ? (
+        {todos.length < 5 ? (
           <ToDoForm addTodo={addTodo}/>
         ) : (
           <ToDoFormDisabled/>
