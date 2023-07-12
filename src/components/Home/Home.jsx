@@ -12,7 +12,6 @@ export const Home = () => {
 
   const loadSavedTodos = () =>{
     const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
-    console.log(saved);
     if(saved){
       setTodos(JSON.parse(saved))
     }
@@ -32,7 +31,6 @@ export const Home = () => {
       ...todos,
       { id: uuidv4(), task: todo, completed: false, isEditing: false },
     ]);
-    console.log(todos);
   }
 
   const toggleComplete = (id) =>{
