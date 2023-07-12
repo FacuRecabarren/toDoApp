@@ -3,7 +3,6 @@ import { ToDoForm } from '../Form/ToDoForm/ToDoForm'
 import { v4 as uuidv4 } from "uuid";
 import { ToDo } from '../ToDo/ToDo';
 import { EditToDoForm } from '../Form/ToDoEditForm/ToDoEditForm';
-import { Header } from '../Header/Header';
 import { ToDoFormDisabled } from '../Form/ToDoForm/ToDoFormDisabled';
 const LOCAL_STORAGE_KEY = "todo:savedtasks";
 
